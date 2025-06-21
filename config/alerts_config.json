@@ -1,0 +1,16 @@
+{
+  "send_alerts": true,
+  "email": {
+    "enabled": true,
+    "from_email": "your_email@gmail.com",
+    "to_email": "recipient@example.com",
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 465,
+    "password": "your_app_password"
+  },
+  "telegram": {
+    "enabled": true,
+    "bot_token": "123456:ABCDEF_your_bot_token",
+    "chat_id": "your_chat_id_here"
+  }
+}

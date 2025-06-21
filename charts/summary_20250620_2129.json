@@ -1,0 +1,40 @@
+{
+  "pair": "EURUSD",
+  "timeframe": "D1",
+  "trend": {
+    "trend": "Sideways",
+    "confidence": 0.5,
+    "justification": "Price slope is upward; No clear price structure"
+  },
+  "support": [
+    {
+      "price": 1.1445,
+      "strength": "weak",
+      "touches": 1
+    }
+  ],
+  "resistance": [],
+  "patterns": [],
+  "indicators": {
+    "rsi": {
+      "value": NaN,
+      "status": "Neutral",
+      "note": "No divergence check yet"
+    },
+    "macd": {
+      "macd_line": NaN,
+      "signal_line": NaN,
+      "status": "Neutral",
+      "note": "Histogram is Decreasing"
+    },
+    "moving_averages": {
+      "price_relation": "Mixed",
+      "crossovers": "No clear crossover"
+    },
+    "summary": "Indicators show mixed signals."
+  },
+  "risk_info": {
+    "trade_direction": "Not available",
+    "note": "Not enough candles to compute ATR (need 20, got 3)."
+  }
+}

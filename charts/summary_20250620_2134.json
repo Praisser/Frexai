@@ -1,0 +1,95 @@
+{
+  "pair": "EURUSD",
+  "timeframe": "M30",
+  "trend": {
+    "trend": "Downtrend",
+    "confidence": 0.6,
+    "justification": "20 SMA is above 50 SMA (bullish); Price slope is downward; MACD shows bearish crossover"
+  },
+  "support": [
+    {
+      "price": 1.151,
+      "strength": "moderate",
+      "touches": 3
+    },
+    {
+      "price": 1.15,
+      "strength": "weak",
+      "touches": 1
+    },
+    {
+      "price": 1.1495,
+      "strength": "weak",
+      "touches": 1
+    }
+  ],
+  "resistance": [
+    {
+      "price": 1.1525,
+      "strength": "weak",
+      "touches": 2
+    },
+    {
+      "price": 1.153,
+      "strength": "moderate",
+      "touches": 3
+    },
+    {
+      "price": 1.1535,
+      "strength": "weak",
+      "touches": 1
+    }
+  ],
+  "patterns": [
+    {
+      "name": "Double Top",
+      "status": "completed",
+      "validation_confidence": 0.8,
+      "peak1": 1.14981,
+      "peak2": 1.15295,
+      "neckline": 1.14909,
+      "projected_target": 1.14837
+    },
+    {
+      "name": "Double Bottom",
+      "status": "completed",
+      "validation_confidence": 0.8,
+      "trough1": 1.15133,
+      "trough2": 1.15145,
+      "neckline": 1.15295,
+      "projected_target": 1.15457
+    }
+  ],
+  "indicators": {
+    "rsi": {
+      "value": 54.18,
+      "status": "Neutral",
+      "note": "No divergence check yet"
+    },
+    "macd": {
+      "macd_line": 0.00019,
+      "signal_line": 0.00027,
+      "status": "Bearish Crossover",
+      "note": "Histogram is Increasing"
+    },
+    "moving_averages": {
+      "price_relation": "Mixed",
+      "crossovers": "No clear crossover"
+    },
+    "summary": "Indicators show mixed signals."
+  },
+  "risk_info": {
+    "trade_direction": "Short",
+    "entry_zone": "1.15075 - 1.15305",
+    "stop_loss": 1.15304,
+    "take_profit_levels": [
+      1.14962
+    ],
+    "risk_reward_ratio": "1:2.0 (to first TP)",
+    "atr": 0.00114,
+    "trailing_stop_suggestion": 1.15324,
+    "position_sizing_guidance": "Risking 1.0% of \u20b910000.0 = \u20b9100.00; suggested size: 87719.3 units",
+    "slippage_applied": 0.0002,
+    "rr_alert": null
+  }
+}

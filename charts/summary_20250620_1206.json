@@ -1,0 +1,69 @@
+{
+  "pair": "USD/JPY",
+  "timeframe": "15MIN",
+  "trend": {
+    "trend": "Sideways",
+    "confidence": 0.5,
+    "justification": "20 SMA is below 50 SMA (bearish); Price slope is downward; MACD shows bearish crossover; No clear price structure"
+  },
+  "support": [],
+  "resistance": [
+    {
+      "price": 145.119,
+      "strength": "weak",
+      "touches": 1
+    },
+    {
+      "price": 145.186,
+      "strength": "weak",
+      "touches": 1
+    },
+    {
+      "price": 145.223,
+      "strength": "weak",
+      "touches": 1
+    }
+  ],
+  "patterns": [
+    {
+      "name": "Double Top",
+      "status": "completed",
+      "validation_confidence": 0.8,
+      "peak1": 145.49001,
+      "peak2": 145.714,
+      "neckline": 145.45799,
+      "projected_target": 145.42597
+    },
+    {
+      "name": "Double Bottom",
+      "status": "completed",
+      "validation_confidence": 0.8,
+      "trough1": 145.37399,
+      "trough2": 145.618,
+      "neckline": 145.62399,
+      "projected_target": 145.87399
+    }
+  ],
+  "indicators": {
+    "rsi": {
+      "value": 26.19,
+      "status": "Oversold",
+      "note": "No divergence check yet"
+    },
+    "macd": {
+      "macd_line": -0.08599,
+      "signal_line": -0.06941,
+      "status": "Bearish Crossover",
+      "note": "Histogram is Decreasing"
+    },
+    "moving_averages": {
+      "price_relation": "Mixed",
+      "crossovers": "No clear crossover"
+    },
+    "summary": "Indicators show mixed signals."
+  },
+  "risk_info": {
+    "trade_direction": "No clear direction",
+    "note": "Trend not strong enough to justify a trade"
+  }
+}

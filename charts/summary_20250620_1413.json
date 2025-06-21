@@ -1,0 +1,85 @@
+{
+  "pair": "EUR/USD",
+  "timeframe": "1H",
+  "trend": {
+    "trend": "Sideways",
+    "confidence": 0.5,
+    "justification": "Price slope is upward; MACD shows bullish crossover; No clear price structure"
+  },
+  "support": [
+    {
+      "price": 1.15,
+      "strength": "weak",
+      "touches": 1
+    },
+    {
+      "price": 1.149,
+      "strength": "moderate",
+      "touches": 3
+    },
+    {
+      "price": 1.1485,
+      "strength": "weak",
+      "touches": 1
+    }
+  ],
+  "resistance": [
+    {
+      "price": 1.151,
+      "strength": "moderate",
+      "touches": 3
+    },
+    {
+      "price": 1.153,
+      "strength": "weak",
+      "touches": 1
+    },
+    {
+      "price": 1.1535,
+      "strength": "weak",
+      "touches": 1
+    }
+  ],
+  "patterns": [
+    {
+      "name": "Double Top",
+      "status": "completed",
+      "validation_confidence": 0.8,
+      "peak1": 1.15294,
+      "peak2": 1.14811,
+      "neckline": 1.14566,
+      "projected_target": 1.13838
+    },
+    {
+      "name": "Double Bottom",
+      "status": "completed",
+      "validation_confidence": 0.8,
+      "trough1": 1.14566,
+      "trough2": 1.14531,
+      "neckline": 1.14811,
+      "projected_target": 1.15056
+    }
+  ],
+  "indicators": {
+    "rsi": {
+      "value": 55.14,
+      "status": "Neutral",
+      "note": "No divergence check yet"
+    },
+    "macd": {
+      "macd_line": 0.00059,
+      "signal_line": 0.00038,
+      "status": "Bullish Crossover",
+      "note": "Histogram is Decreasing"
+    },
+    "moving_averages": {
+      "price_relation": "Mixed",
+      "crossovers": "No clear crossover"
+    },
+    "summary": "Indicators show mixed signals."
+  },
+  "risk_info": {
+    "trade_direction": "No clear direction",
+    "note": "Trend not strong enough to justify a trade"
+  }
+}

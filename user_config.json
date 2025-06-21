@@ -1,0 +1,10 @@
+{
+  "use_plotly": true,
+  "show_atr": true,
+  "show_bollinger": true,
+  "last_pair": "EURUSD",
+  "last_timeframe": "M15",
+  "capital": 10000.0,
+  "auto_run": false,
+  "auto_interval": 1
+}

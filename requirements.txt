@@ -1,0 +1,14 @@
+streamlit
+pandas
+numpy
+ta
+matplotlib
+seaborn
+plotly
+scikit-learn
+lightgbm
+requests
+MetaTrader5
+twelvedata
+email-validator
+python-dotenv

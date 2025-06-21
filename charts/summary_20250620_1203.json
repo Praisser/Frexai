@@ -1,0 +1,75 @@
+{
+  "pair": "EUR/USD",
+  "timeframe": "5MIN",
+  "trend": {
+    "trend": "Sideways",
+    "confidence": 0.5,
+    "justification": "20 SMA is below 50 SMA (bearish); Price slope is downward; MACD shows bearish crossover; No clear price structure"
+  },
+  "support": [
+    {
+      "price": 1.149,
+      "strength": "weak",
+      "touches": 1
+    }
+  ],
+  "resistance": [
+    {
+      "price": 1.1495,
+      "strength": "weak",
+      "touches": 1
+    },
+    {
+      "price": 1.15,
+      "strength": "weak",
+      "touches": 2
+    },
+    {
+      "price": 1.1505,
+      "strength": "weak",
+      "touches": 1
+    }
+  ],
+  "patterns": [
+    {
+      "name": "Double Top",
+      "status": "completed",
+      "validation_confidence": 0.8,
+      "peak1": 1.15193,
+      "peak2": 1.15229,
+      "neckline": 1.15149,
+      "projected_target": 1.15105
+    },
+    {
+      "name": "Double Bottom",
+      "status": "completed",
+      "validation_confidence": 0.8,
+      "trough1": 1.15134,
+      "trough2": 1.15118,
+      "neckline": 1.15229,
+      "projected_target": 1.15324
+    }
+  ],
+  "indicators": {
+    "rsi": {
+      "value": 32.36,
+      "status": "Neutral",
+      "note": "No divergence check yet"
+    },
+    "macd": {
+      "macd_line": -0.00051,
+      "signal_line": -0.00049,
+      "status": "Bearish Crossover",
+      "note": "Histogram is Increasing"
+    },
+    "moving_averages": {
+      "price_relation": "Mixed",
+      "crossovers": "No clear crossover"
+    },
+    "summary": "Indicators show mixed signals."
+  },
+  "risk_info": {
+    "trade_direction": "No clear direction",
+    "note": "Trend not strong enough to justify a trade"
+  }
+}
