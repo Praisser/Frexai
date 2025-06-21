@@ -60,11 +60,11 @@ def inject_custom_css():
         </style>
     """, unsafe_allow_html=True)
 
-st.set_page_config(page_title="Forex Analyzer AI", layout="wide")
+st.set_page_config(page_title="Frexai", layout="wide")
 inject_custom_css()
 
 
-st.title("Forex Analyzer AI — Streamlit GUI")
+st.title("Frexai — Streamlit GUI")
 
 # --- Load Secrets ---
 with open("secrets.json", "r") as f:
