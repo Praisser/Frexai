@@ -1,6 +1,6 @@
-# Frexai - Python project
+Frexai - Python project
 
-An advanced, interactive AI-powered Forex analysis dashboard built with **Streamlit**, featuring:
+Advanced Forex analysis dashboard with intelligent signal scoring, strategy backtesting, and rule-based decision logic.
 
 - ✅ Real-time MetaTrader 5 support
 - 📊 Automated trend detection, support/resistance zones, patterns & indicators
@@ -12,7 +12,7 @@ An advanced, interactive AI-powered Forex analysis dashboard built with **Stream
 - 🧩 Custom strategy builder (JSON rules)
 - 🌗 Theme toggle (Light/Dark)
 - 💡 Clean, minimal modern design
-
+- 🧠 ML-based signal prediction (Buy/Sell/Wait) (In Progress)
 ---
 
 ## 🚀 Features
@@ -25,6 +25,7 @@ An advanced, interactive AI-powered Forex analysis dashboard built with **Stream
 | **Risk Management**         | Auto SL/TP/Entry suggestions with signal scoring                            |
 | **Backtesting**             | Run multiple strategies, see equity curve, drawdown, PnL, winrate           |
 | **Alerts**                  | Send email/Telegram with chart snapshot and trade details                   |
+| **ML Prediction**           | Predicts Buy/Sell/Wait based on trained model                               |
 | **Strategy Optimizer**      | Parameter sweep for RSI/MA thresholds                                       |
 | **Journal**                 | Logs live/backtest trades to CSV                                            |
 | **Confluence Analysis**     | Compares signal across two timeframes                                       |
@@ -36,7 +37,7 @@ An advanced, interactive AI-powered Forex analysis dashboard built with **Stream
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/yourusername/forex-analyzer-ai.git
+git clone https://github.com/Praisser/Frexai.git
 cd forex-analyzer-ai
 
 # Setup virtual environment (recommended)
