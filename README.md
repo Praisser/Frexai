@@ -47,3 +47,6 @@ venv\Scripts\activate  # Windows
 
 # Install dependencies
 pip install -r requirements.txt
+
+# To Run
+streamlit run .\gui_app.py
