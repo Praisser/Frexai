@@ -38,7 +38,7 @@ Advanced Forex analysis dashboard with intelligent signal scoring, strategy back
 
 ```bash
 git clone https://github.com/Praisser/Frexai.git
-cd forex-analyzer-ai
+cd frexai
 
 # Setup virtual environment (recommended)
 python -m venv venv
